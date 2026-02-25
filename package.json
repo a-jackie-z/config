@@ -1,6 +1,6 @@
 {
   "name": "@a_jackie_z/config",
-  "version": "1.1.5",
+  "version": "1.1.7",
   "description": "A configuration factory for microservices built with TypeScript.",
   "license": "MIT",
   "author": "Sang Lu <connect.with.sang@gmail.com>",
@@ -24,11 +24,11 @@
     "test": "LOG_PRETTY=true LOG_LEVEL=debug tsx lib/tests/config.ts"
   },
   "dependencies": {
-    "@a_jackie_z/logger": "^1.0.2",
+    "@a_jackie_z/logger": "^1.0.3",
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "^25.2.0",
+    "@types/node": "^25.3.0",
     "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
